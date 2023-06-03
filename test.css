@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(97, 97, 255);
+}
+
+.main-content {
+    background-color: white;
+    border-radius: 15px;
+    padding: 210px 40px;
+    margin: 70px 20px;
+}
+
+.header {
+    padding-bottom: 90px;
+}
+
+.text-control {
+    display: flex;
+    
+}
+
+.class-btn {
+    position: absolute;
+    top: 370px;
+    left: 275px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}.class-btn button{
+    
+    margin-bottom: 22px;
+}
+
+.text-input {
+    color: gray;
+    font-size: smaller;
+}
+
+.content-side {
+    position: absolute;
+    top: 340px;
+    left: 75px;
+    margin-bottom: 0;
+}
+
+.text-input,
+textarea.text-control {
+    margin-bottom: 0;
+}
+
+.btn-additems {
+    margin-bottom: 20px; 
+}
